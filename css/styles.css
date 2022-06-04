@@ -2,7 +2,7 @@
 
 body {
   background-color: azure;
-  color: black;
+  color: white;
 
   font-size: 16px;
   font-weight: normal;
@@ -62,22 +62,26 @@ a:active {
   padding-top: 30px;
 }
 
-.bg-yellow {
-  background: #fff9dc;
+.hobbie {
+  background: #9fc5f7;
 }
 
-.bg-green {
-  background: #e5ffe7;
+.work {
+  background: #9fc5f7;
 }
 
-.bg-red {
-  background: #ffe5e5;
+.inspiration {
+  background: #9fc5f7;
 }
 
 .card {
   padding: 15px 20px;
   margin-bottom: 20px;
   border-radius: 20px;
+}
+
+.card a {
+  color: white;
 }
 
 .card h3 {
@@ -89,7 +93,7 @@ a:active {
 }
 
 .list li {
-  color: black;
+  color: white;
   margin-bottom: 10px;
 }
 
@@ -101,64 +105,8 @@ a:active {
   padding-bottom: 10px;
 }
 
+.table td:nth-child(1),
 .table td:nth-child(2),
 .table td:nth-child(3) {
-  color: gray;
-}
-
-.link-list {
-  list-style: none;
-  padding: 0;
-}
-
-.link-list li {
-  margin-bottom: 10px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #ccc;
-}
-
-.form-group label {
-  display: block;
-  font-size: 14px;
-  color: black;
-}
-
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  box-sizing: border-box;
-  border: none;
-  background: transparent;
-  border-bottom: 1px solid #ccc;
-  color: black;
-  padding: 15px 0 10px;
-  outline: none;
-  font-family: inherit;
-}
-
-.row {
-  display: flex;
-  margin-bottom: 20px;
-}
-
-.row > .form-group {
-  width: 50%;
-  margin-right: 20px;
-}
-
-.row > .form-group:last-child {
-  margin-right: 0;
-}
-
-.btn {
-  background-color: black;
-  padding: 15px 20px;
-  color: #fff;
-  border: none;
-  font-family: inherit;
-  cursor: pointer;
-}
-
-.btn:hover {
-  opacity: 0.9;
+  color: white;
 }
